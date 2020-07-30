@@ -1,0 +1,32 @@
+body{background-color: #D3D3D3;}
+
+#main{background-color: white; padding-bottom:30px; margin-left: 5px;
+    }
+
+
+nav{margin-bottom: 10px ;}
+.boxes {
+    background-color: white;
+    margin-left: 10px ;
+  
+      }
+        
+.col-lg-5 a img{height: 120px;}
+
+h1{
+color: green;
+text-align: center;
+font-weight: bold; padding: 10px;}
+.col-lg-7  a img {height:200px ;float: left;
+}
+p {font-size: 20px;
+margin-left: 5px;
+} 
+
+h2{
+    text-align: center;
+    color: green;
+    font-weight: bold;}
+.viz{display: inline-flexbox;}
+
+
