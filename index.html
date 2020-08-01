@@ -4,7 +4,7 @@
 <head>
 
   <meta charset="UTF-8">
-  <title>Bootstrap Demo</title>
+  <title>Weather Anaysis| Home </title>
 
   <!-- Bring in our bootstrap stylesheet -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -12,14 +12,15 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
- <nav class="navbar navbar-expand-lg navbar-light bg-white">
-    <a class="navbar-brand" href="https://timi000.github.io/Web-Design-Challenge/index.html">Latitude</a>
+
+ <nav class="navbar navbar-expand-lg navbar-light">
+    <a class="navbar-brand bg-info text-white"  href="https://timi000.github.io/Web-Design-Challenge/index.html">Latitude</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
         </button>
 
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav ml-auto">
+    <ul class="navbar-nav  ml-auto">
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
          Plots
@@ -41,8 +42,10 @@
         <a class="nav-link" href="https://timi000.github.io/Web-Design-Challenge/Data.html">Data</a>
       </li>   
       </ul>
+    
     </nav>
   </div>
+ 
     
 
 
@@ -56,7 +59,7 @@
   <hr>
 
   
-<p class="Float">
+<p class="boxes">
   <a href="https://timi000.github.io/Web-Design-Challenge/max_temp.html"> <img src="images/Fig1.png" alt="HTML tutorial"> </a>
   The purpose of this project was to analyze how weather changes as you get closer to the equator.  To accomplish this analysis, we first pulled data from 
   the Open Weather API to assemble a data set on over 500 cities.
@@ -77,22 +80,21 @@
   <hr>
   <div class="container">
     <div class="row" style="flex: auto;">
-      <div class="col-6">
+      <div class="col-md-6 .col--3 col-sm-3">
         <a href="https://timi000.github.io/Web-Design-Challenge/max_temp.html"> <img class= "panel" src="images/Fig1.png" alt="HTML tutorial"> </a>
 
 
       </div>
-      <div class="col-6 ">
+      <div class="col-md-6 .col-3 col-sm-3">
         <a href="https://timi000.github.io/Web-Design-Challenge/humid.html"> <img  class= "panel"src="images/Fig2.png" alt="HTML tutorial"> </a>
  
       </div>
-      </div>
-      <div class="row">
-        <div class="col-6">
+      
+        <div class="col-md-6 .col-3 col-sm-3">
           <a href="https://timi000.github.io/Web-Design-Challenge/Cloudiness.html"> <img  class= "panel"src="images/Fig3.png" alt="HTML tutorial"> </a>
 
         </div>
-        <div class="col-6">
+        <div class="col-md-6 .col-3 col-sm-3">
           <a href="https://timi000.github.io/Web-Design-Challenge/Wind.html"> <img class= "panel" src="images/Fig4.png" alt="HTML tutorial"> </a>
   
         </div>
